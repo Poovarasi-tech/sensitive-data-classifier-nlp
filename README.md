@@ -1,2 +1,22 @@
-# sensitive-data-classifier-nlp
-Built an NLP system to classify sensitive data using ML (LR, SVM) and transformers (BERT, RoBERTa). Achieved up to 96% F1 and identified label ambiguity issues. Evaluated robustness using synthetic data for real-world privacy and compliance use cases.
+# Machine Learning Based Sensitive Data Classification
+
+## Overview
+This project detects and classifies sensitive data in text using machine learning and transformer models.
+
+## Models Used
+- Logistic Regression
+- SVM (LinearSVC)
+- KNN
+- DistilBERT, RoBERTa, LaBSE, DeBERTa
+
+## Results
+- Classical models: ~90% F1
+- Transformers: ~96% F1
+
+## Key Insight
+Label ambiguity between Internal and Social classes impacts performance.
+
+## Applications
+- Data privacy
+- Compliance (GDPR, PIPEDA)
+- Content moderation
